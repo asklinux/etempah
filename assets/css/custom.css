@@ -1,0 +1,155 @@
+/**
+ * All your custom CSS should go into this file
+*/
+
+body {background: #FFFFFF url('../img/grid15.png') repeat;}
+#master-auth {padding-top:75px;}
+#master-nonauth {}
+
+header {
+    margin-bottom: 10px;
+}
+.footer {bottom:0;}
+.footer p {text-align: center;}
+hr.title-divider {margin:10px 0;}
+.navbar-logo img {margin-right: 10px;}
+
+.room_calendar i {font-size: 15px;}
+#content-container {padding:10px; background-color:#EEEEEE; border-radius:4px;}
+.content-area {min-height: 445px;}
+.control-view {padding-top:5px;}
+.control-alert {margin-top: 10px;}
+.calendar-pos {top:220px; left: -290px;}
+
+fieldset#booking-details .control-group {margin-bottom: 0}
+fieldset#booking-details .tab-content {padding-bottom: 18px;}
+table th {font-weight: bold !important;}
+
+.margin-bottom0 {margin-bottom:0px !important;}
+.margin-bottom10 {margin-bottom:10px !important;}
+.margin-left0 {margin-left:0px;}
+.padding-left-form {padding-left:40px;}
+.padding-right20 {padding-right:20px;}
+.padding-left30 {padding-left:30px;}
+.padding-left20 {padding-left:20px;}
+.padding-left0 {padding-left:0px;}
+.padding-top10 {padding-top:10px;}
+.padding-top0 {padding-top:0;}
+.color-red {color:red;}
+.box-shadow {box-shadow:0 1px 3px rgba(0, 0, 0, 0.1); -webkit-box-shadow:0 1px 3px rgba(0, 0, 0, 0.1);}
+.fontsize15 {font-size:15px;}
+.crossline {text-decoration: line-through;}
+
+.width1-add-on {width: 300px !important;}
+.width2-add-on {width: 70px !important;}
+
+.navbar-inner .popover {top:40px !important;}
+
+.show-grid [class*="span"] {
+    background-color: whiteSmoke;
+    -webkit-border-radius: 4px;
+    -moz-border-radius: 4px;
+    border-radius: 4px;
+}
+
+.custom-legend {display: inline; float: right; padding-top: 5px;}
+input.field-error {border-color: #B94A48; box-shadow: 0 1px 2px rgba(185, 74, 72, 0.4) inset;}
+
+.eventsCalendar-currentTitle {background-color: #333333;}
+.eventsCalendar-subtitle{
+    -moz-border-bottom-colors: none;
+    -moz-border-left-colors: none;
+    -moz-border-right-colors: none;
+    -moz-border-top-colors: none;
+    background-color: #333333;
+    border-color: #E3E3E3;
+    border-image: none;
+    border-radius: 4px 4px 4px 4px;
+    border-style: solid;
+    border-width: 1px 0;
+    line-height: 30px;
+    color: white;
+    text-align: center;
+    padding: 0;
+}
+.eventDesc {margin-bottom: 0;}
+table#room_calendar td {line-height: 16px;}
+table#room_calendar {margin-bottom: 2px;}
+
+/**
+ * Overrides bootstrap
+*/
+table .label-big {padding: 5px 5px 3px; font-size:18px;}
+
+.icon-white, .nav-pills > .active > a > [class^="icon-"], .nav-pills > .active > a > [class*=" icon-"], .nav-list > .active > a > [class^="icon-"], .nav-list > .active > a > [class*=" icon-"], .navbar-inverse .nav > .active > a > [class^="icon-"], .navbar-inverse .nav > .active > a > [class*=" icon-"], .dropdown-menu > li > a:hover > [class^="icon-"], .dropdown-menu > li > a:hover > [class*=" icon-"], .dropdown-menu > .active > a > [class^="icon-"], .dropdown-menu > .active > a > [class*=" icon-"], .dropdown-submenu:hover > a > [class^="icon-"], .dropdown-submenu:hover > a > [class*=" icon-"]
+{background-image: none;}
+.well-form {background: white; padding: 19px 0; -webkit-border-radius: 3px; -moz-border-radius: 3px; border-radius: 3px;}
+table {background-color:#FFFFFF;}
+table th {
+    color: #000000;
+}
+.btn-info {
+    background: rgb(37,141,200); /* Old browsers */
+    background: -moz-linear-gradient(top,  rgba(37,141,200,1) 0%, rgba(37,141,200,1) 100%); /* FF3.6+ */
+    background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,rgba(37,141,200,1)), color-stop(100%,rgba(37,141,200,1))); /* Chrome,Safari4+ */
+    background: -webkit-linear-gradient(top,  rgba(37,141,200,1) 0%,rgba(37,141,200,1) 100%); /* Chrome10+,Safari5.1+ */
+    background: -o-linear-gradient(top,  rgba(37,141,200,1) 0%,rgba(37,141,200,1) 100%); /* Opera 11.10+ */
+    background: -ms-linear-gradient(top,  rgba(37,141,200,1) 0%,rgba(37,141,200,1) 100%); /* IE10+ */
+    background: linear-gradient(to bottom,  rgba(37,141,200,1) 0%,rgba(37,141,200,1) 100%); /* W3C */
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#258dc8', endColorstr='#258dc8',GradientType=0 ); /* IE6-9 */
+}
+.well, .breadcrumb {border:1px solid #cccccc;}
+.accordion-body {background: white;}
+.accordion-heading {background: linear-gradient(to bottom, #FFFFFF, #E6E6E6) repeat scroll 0 0 transparent;}
+.input-append .add-on, .input-prepend .add-on {text-align:left}
+.align-left {text-align: left !important;}
+.navbar-inner {padding: 5px 0;}
+#master-nonauth .navbar  .container {width: 1170px;}
+.pagination {display: inline;}
+/**
+* Overrides jquery ui
+*/
+.ui-widget {font-size:0.9em;}
+#ui-datepicker-div {z-index: 2000 !important;}
+
+/**
+* Overrides jquery event calendar
+*/
+.eventsCalendar-list .eventsCalendar-noEvents {font-size:1em;}
+
+/*
+* Custom Overrides (Faizzal)
+*/
+
+input#new_logo {
+    padding: 2px;
+    border: 1px solid #cccccc;
+    border-radius: 4px;
+}
+
+textarea {
+    resize: vertical;
+}
+
+img.agency-logo {
+    /*max-height:40px;*/
+    max-width: 300px;	
+    padding-bottom: 5px;
+}
+
+/*input[type = text] {
+        height: 20px;
+}*/
+
+#padding-table {
+    padding: 18px 22px 0px;
+}
+
+.custom-paragraph {
+    margin: 10px 35px 10px;
+}
+
+.autocomplete-suggestions { border: 1px solid #999; background: #FFF; cursor: default; overflow: auto; }
+.autocomplete-suggestion { padding: 2px 5px; white-space: nowrap; overflow: hidden; }
+.autocomplete-selected { background: #F0F0F0; }
+.autocomplete-suggestions strong { font-weight: bold;}
